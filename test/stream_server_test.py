@@ -1,4 +1,4 @@
-__author__ = 'zhengwang'
+
 
 import numpy as np
 import cv2
@@ -46,5 +46,5 @@ class VideoStreamingTest(object):
 
 if __name__ == '__main__':
     # host, port
-    h, p = "192.168.1.100", 8000
+    h, p = "10.10.10.178, 8000
     VideoStreamingTest(h, p)
